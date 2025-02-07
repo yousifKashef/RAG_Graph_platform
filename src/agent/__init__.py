@@ -3,6 +3,6 @@
 This module defines a custom graph.
 """
 
-from agent.retrieval_graph import retrieval_graph
+from agent.graph import graph
 
-__all__ = ["retrieval_graph"]
+__all__ = ["graph.py"]

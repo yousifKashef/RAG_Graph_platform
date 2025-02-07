@@ -1,5 +1,6 @@
 import os
-from langchain_openai import ChatOpenAI, OpenAIEmbeddings
+from langchain.chat_models import ChatOpenAI
+from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain_elasticsearch import ElasticsearchStore
 from langgraph.graph import StateGraph, START
 from typing_extensions import TypedDict, List

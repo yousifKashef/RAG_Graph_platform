@@ -1,7 +1,7 @@
 {
   "dependencies": ["."],
   "graphs": {
-    "retrieval_graph": "./src/agent/retrieval_graph.py:retrieval_graph"
+    "graph": "./src/agent/graph.py:graph"
   },
   "env": ".env"
 }
